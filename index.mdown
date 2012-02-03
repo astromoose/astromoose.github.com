@@ -1,0 +1,22 @@
+---
+title: Y Hallo Thar.
+layout: page
+---
+
+<p><strong>Jon Anning</strong> is the SysAdmin for the <a href="http://is.mpg.de/ps">MPI:PS group.</a> </p>
+<img src="/media/images/Hipsta.jpg" width="900px">
+<hr>
+<ul>
+<h3>Blog Posts</h3>
+{% for post in site.posts %}
+  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+  {% if year != y %}
+    {% assign year = y %}
+    <li class="post-year"><h4> {{ y }} </h4></li>
+  {% endif %}
+  <li>
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>

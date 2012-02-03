@@ -1,0 +1,20 @@
+---
+layout : post
+title :  The New New Thing
+category : [chaff]
+tags : [chaff, ruby, jekyll, git]
+---
+
+## Welcome!
+
+So yeah, new year, new blog-thingy. This is kind of a proof-of-concept for the flat-file based websites I'd like to push out to all members of the PS team sometime soon. It's powered by the jawsomeness that is [jekyll](http://jekyllrb.com/), which is oft leveraged with the equally spiffy [github pages](http://pages.github.com/). I've integrated v1.4 of [Twitter Bootstrap](http://twitter.github.com/bootstrap/) to this version of the site too, with a view to upgrade to 2.0 shortly.
+
+## Wait what - Jekyll? Twitter's Boots? Jon, you're not making senseeeeeeee~
+
+Um, sorry. I'll go back a step. We've got a bunch of students and sciencey folks here, right? And they all are going to want their own website so they can post their papers, research notes and pictures of cats for both the wider scientific community and the internet to enjoy. I'm told that these people are really busy, making SCIENCE happen and all that. So I've put together a really simple way for them to keep their own blog/static page without having to worry about making it look nice and stress about maintaining an app server to run some complex app with a database behind it.
+
+**Enter Jekyll!**
+
+> A parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. 
+> Jekyll is known as “a simple, blog aware, static site generator”.
+
