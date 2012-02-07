@@ -3,11 +3,7 @@ title: That's no moon... It's a Space Station
 layout: page
 ---
 
-I'm the resident Systems Administrator for the *relatively* new Perceiving Systems group, which is a part of the only really recently formed Max Planck Institute for Intelligent Systems.
-
-I'm nominally responsible for anything with a plug on the end of it. 
-
-I love fixing problems and putting smiles on faces.
+![ZOMG](media/images/Hipsta.jpg)
 
 ## Previous roles:
 - Senior Operations Engineer - [Sony Computer Entertainment Europe](http://www.playstation.co.uk)

@@ -3,20 +3,20 @@ title: Y Hallo Thar.
 layout: page
 ---
 
-<p><strong>Jon Anning</strong> is the SysAdmin for the <a href="http://is.mpg.de/ps">MPI:PS group.</a> </p>
-<img src="/media/images/Hipsta.jpg" width="900px">
-<hr>
+![Moose](media/images/Moose.jpg)
+
+I'm Jon Anning, and I'm the resident Systems Administrator for the *relatively* new Perceiving Systems group, which is a part of the only really recently formed Max Planck Institute for Intelligent Systems.
+
+I suppose I'm at least nominally responsible for anything with a plug on the end of it - whether it's a printer, a phone or the world's most accurate and detailed 3D Body Scanner.
+
+I love fixing problems with interesting tech and putting big smiles on faces.
+
 <ul>
-<h3>Blog Posts</h3>
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-  {% if year != y %}
-    {% assign year = y %}
-    <li class="post-year"><h4> {{ y }} </h4></li>
-  {% endif %}
   <li>
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
   </li>
 {% endfor %}
 </ul>
