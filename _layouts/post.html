@@ -1,15 +1,13 @@
 ---
 layout: default
 ---
+<br>
 <div class="page-header">
   <h1>{{ page.title }} <small>{{ page.tagline }}</small></h1>
 </div>
 
-<div class="row">
     {{ content }}
-<br>
     <hr>
   
-    <h4>Published</h4>
-    <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
+    <h4><em>Published {{ page.date | date_to_long_string }}</em></h4>
 </div>

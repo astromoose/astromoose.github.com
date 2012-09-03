@@ -1,11 +1,26 @@
 ---
-title: Ok, ok - don't shout
 layout: page
 ---
 
-- **Phone:** +49 (0) 7071 6911804
-- **Mail:** Max Planck Institut für Intelligent Systeme: Perceptiv Systeme, Paul Erlich-Str 15, Tübingen 72076
-- **Email:** [jon.anning@tue.mpg.de](mailto:jon.anning@tue.mpg.de)
-- **Twitter:** [astromoose](http://twitter.com/astromoose)
-- **LinkedIn:** [Jon Anning](http://de.linkedin.com/in/astromoose)
-- **Github:** [astromoose](http://github.com/astromoose)
+<h2>Phone</h2>
+<p> +49 (0) 7071 6911804</p>
+<hr>
+<h2>Post</h2>
+<strong>Max Planck Institut für Intelligent Systeme: Perceptiv Systeme</strong>
+<p>Spemanstraße 41, Tübingen 72076, Deutschland</p>
+<hr>
+<h2>Email</h2>
+[jon.anning@tue.mpg.de](mailto:jon.anning@tue.mpg.de)
+<hr>
+<h2>Twitter</h2> 
+[astromoose](http://twitter.com/astromoose)
+<hr>
+<h2>LinkedIn</h2> 
+[Jon Anning](http://de.linkedin.com/in/astromoose)
+<hr>
+<h2>Github</h2> 
+[astromoose](http://github.com/astromoose)
+<hr>
+<h2>Flickr</h2>
+ [astromoose](http://flickr.com/photos/astromoose)
+<hr>

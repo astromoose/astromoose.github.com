@@ -32,14 +32,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
-a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-a:hover, a:active {
-  outline: 0;
-}
+
 sub, sup {
   position: relative;
   font-size: 75%;
@@ -99,14 +92,6 @@ body {
   line-height: 2 244px;
   color: #333333;
   background-color: #ffffff;
-}
-a {
-  color: #0088cc;
-  text-decoration: none;
-}
-a:hover {
-  color: #005580;
-  text-decoration: underline;
 }
 .row {
   margin-left: -20px;
@@ -362,6 +347,7 @@ ol ul {
 }
 ul {
   list-style: disc;
+  line-height: 22px;
 }
 ol {
   list-style: decimal;
@@ -2487,8 +2473,10 @@ button.btn.small, input[type="submit"].btn.small {
   z-index: 1030;
 }
 .navbar-fixed-top .navbar-inner {
+  padding-top: 8px;
   padding-left: 0;
   padding-right: 0;
+  height: 44px;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;

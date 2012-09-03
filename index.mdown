@@ -3,28 +3,31 @@ layout: page
 ---
 
 <div class="row">
-<div class="span2">
-<img src="media/images/raven.png">
+  <div class="span2">
+    <img src="media/images/raven.png">
+  </div>
+  <div class="span8">
+    <p> I'm Jon Anning, and I'm the resident Systems Administrator for the <em>relatively</em> new <a href="http://ps.is.tue.mpg.de">Perceiving Systems</a> group, which is a part of the only really recently formed <a href="http://is.mpg.de">Max Planck Institute for Intelligent Systems</a>.</p>
+    <p>I love fixing problems with interesting tech and putting big smiles on faces.</p>
+  </div>
 </div>
-<div class="span8">
-<p>
-I'm Jon Anning, and I'm the resident Systems Administrator for the <em>relatively</em> new <a href="http://ps.is.tue.mpg.de">Perceiving Systems</a> group, which is a part of the only really recently formed <a href="http://is.mpg.de">Max Planck Institute for Intelligent Systems</a>.
 
-<p>I suppose I'm at least nominally responsible for anything with a plug on the end of it - whether it's a printer, a phone or the world's most accurate and detailed 3D Body Scanner.</p>
-
-<p>I love fixing problems with interesting tech and putting big smiles on faces.</p>
-</p>
-</div>
-</div>
-<hr>
-<div class="span8">
-<h1>Latest</h1>
-<br>
-
-	{% for post in site.posts offset: 0 limit: site.theme.homepage_featured %}
-				{% include post_featured.html %}
-			{% endfor %}
 <hr>
 
-<p><a href="/archive.html" class="more">Older Posts »</a></p>
+<div class="row">
+  <div class="span10">
+    <br>
+	  {% for post in site.posts offset: 0 limit: site.theme.homepage_featured %}
+	  			{% include post_featured.html %}
+	  		{% endfor %}
+    <br>
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="span10">
+    <a href="/archive.html">Older Posts »</a>
+  </div>
 </div>

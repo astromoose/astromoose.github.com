@@ -1,8 +1,17 @@
 pygments : true
 
-title : ...said the Moose to the Raven
+title : So said the Moose to the Raven
 author :
   name : Jon Anning
   email : jon.anning@tue.mpg.de
   github : astromoose
   twitter : astromoose
+
+# Number of featured posts on homepage
+homepage_featured: 1
+
+# Number of posts on homepage (in addition to featured posts)
+homepage_posts: 2
+
+# Number of words to display in post summaries
+featured_wordcount: 20
