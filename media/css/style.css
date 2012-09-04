@@ -27,6 +27,12 @@ p {
   font-size: 20px;
 }
 
+p img {
+  float: right;
+  border: 2px solid #800;
+  margin: 26px;
+}
+
 h1 {
   font-size: 40px;
   color: #B00;
