@@ -7,7 +7,7 @@ layout: page
     <img src="media/images/raven.png">
   </div>
   <div class="span8">
-    <p>I'm Jon Anning, and I'm the resident Systems Administrator for the <a href="http://is.mpg.de">Max Planck Institute for Intelligent Systems</a>'s <a href="http://ps.is.tue.mpg.de">Perceiving Systems</a> group.</p>
+    <p>I'm Jon Anning, and I'm the resident Sysadmin for the <a href="http://ps.is.tue.mpg.de">Perceiving Systems</a> group at the <a href="http://is.mpg.de">Max Planck Institute for Intelligent Systems</a> in Tübingen, Germany.</p>
     <p>I love fixing problems with interesting tech and putting big smiles on faces.</p>
   </div>
 </div>
