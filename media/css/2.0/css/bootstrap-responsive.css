@@ -287,9 +287,11 @@
     margin-bottom: 18px;
   }
   .navbar-fixed-top .navbar-inner {
+    background-color: #B00;
     padding: 5px;
   }
   .navbar .container {
+    color: #dddddd;
     width: auto;
     padding: 0;
   }

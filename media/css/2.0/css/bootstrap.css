@@ -280,6 +280,7 @@ h6 {
   margin: 0;
   color: #333333;
   text-rendering: optimizelegibility;
+  padding-bottom: 6px;
 }
 h1 small,
 h2 small,
@@ -292,7 +293,7 @@ h6 small {
 }
 h1 {
   font-size: 30px;
-  line-height: 36px;
+  line-height: 48px;
 }
 h1 small {
   font-size: 18px;
@@ -353,7 +354,7 @@ ol {
   list-style: decimal;
 }
 li {
-  line-height: 18px;
+  line-height: 26px;
 }
 ul.unstyled {
   margin-left: 0;

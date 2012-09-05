@@ -14,7 +14,7 @@ layout: page
 <h1>Things that I ❤</h1>
 <br>
 - Videogames (World of Warcraft - Accidental GM of [Silent Albion](http://eu.battle.net/wow/en/guild/steamwheedle-cartel/Silent%20Albion/))
-- Coding (ruby, bash, zsh, python)
+- Coding (ruby, javascript, bash, zsh, python)
 - Reading (Iain M. Banks, Alastair Reynolds, William Gibson, Richard Morgan, Dan Simmons, Jack Vance)
 - Music (Queens of the Stone Age, Them Crooked Vultures, Riff Cannon, Mastodon, ST:Erik, Fatso Jetson, Brant Bjork, Interpol, Metallica, Dozer, Kyuss, Pitchshifter, Nirvana, Slayer, Rocket from the Crypt, Editors, Soundgarden)
 - Scuba diving
@@ -23,6 +23,8 @@ layout: page
 - Spending as much time as I can with my wonderful girlfriend
 - Tea
 - Travel and Language
+- Mooses
+- Ravens
 <br>
 <hr>
 
