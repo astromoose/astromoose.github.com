@@ -13,7 +13,7 @@ layout: page
 [jon.anning@tue.mpg.de](mailto:jon.anning@tue.mpg.de)
 <hr>
 <h2>Twitter</h2> 
-[astromoose](http://twitter.com/astromoose)
+[@astromoose](http://twitter.com/astromoose)
 <hr>
 <h2>LinkedIn</h2> 
 [Jon Anning](http://de.linkedin.com/in/astromoose)
