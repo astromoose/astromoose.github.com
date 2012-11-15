@@ -5,6 +5,10 @@ html, body {
   height: 100%;
 }
 
+.nav-wrapper {
+margin-top: 60px;
+}
+
 .wrapper {
 	min-height: 100%;
 	height: auto !important;
@@ -144,4 +148,35 @@ ul {
 	background:#57A957;
 	border:1px solid #4C964D;
 	color:#FFF;
+}
+
+.tile {
+	width: 250px;
+	height: 150px;
+  margin: 1px;
+  margin-bottom: 2px;
+  padding: 14px;
+  background: #B00;
+  color: #FFF;
+  position: relative;
+}
+
+.tile a {
+ 	color: white;
+  font-size: smaller;
+}
+
+.tile p {
+  font-size: small;
+}
+
+.tile span {
+  font-size: small;
+}
+
+.tile img {
+  position: absolute;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
 }
