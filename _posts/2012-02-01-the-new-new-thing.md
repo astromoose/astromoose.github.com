@@ -1,8 +1,8 @@
 ---
 layout : post
 title :  The New New Thing
-category : [chaff]
-tags : [chaff, ruby, jekyll, git]
+category : chaff
+tags : chaff, ruby, jekyll, git
 ---
 
 ## Welcome!

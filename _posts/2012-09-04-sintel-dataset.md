@@ -1,11 +1,11 @@
 ---
 layout : post
 title :  The MPI Sintel Dataset
-category : [work]
-tags : [ruby, rails, work, science]
+category : work
+tags : ruby, rails, work, science
 ---
 
-<a href="http://sintel.is.tue.mpg.de"><p><img src="/media/images/sintel.png" alt="Just a screenshot, nothing to see here!"></p></a>
+<a href="http://sintel.is.tue.mpg.de"><img class="img-rounded" src="/media/images/sintel.png" alt="Just a screenshot, nothing to see here!"></a>
 
 Our department's web developer had to step out to have a baby, so I got the chance to dabble a little with Rails again. It's been a while, despite being a massive fan of the framework back in the mid 00's. I got hooked on [sinatra](http://sinatrarb.com) back at Sony when we were putting together our crazy 'Magick' app to manage cloudformation stacks in ec2, and it was very weird to go back to the comparitive heft of Activerecord and scaffolding. It wasn't terrible, and I was kind of handed the reins halfway through so there's a bunch of things I'd have done differently given the time.  
   

@@ -1,11 +1,11 @@
 ---
 layout : post
 title :  Coffee Tracker and the Magic Meteor
-category : [chaff]
-tags : [fun, nodejs, meteor, javascript, caffeine]
+category : chaff
+tags : fun, nodejs, meteor, javascript, caffeine
 ---
 
-<a href="http://coffeetracker.meteor.com"><p><img src="/media/images/coffeetracker.png" alt="Just a screenshot, nothing to see here!"></p></a>
+[![Just a screeenshot](/media/images/coffeetracker.png)](http://coffeetracker.meteor.com)
 
 I've been unreasonably excited about [Meteor](http://www.meteor.com) since finding out about it a few weeks ago. Now I've actually done something with it!
   
