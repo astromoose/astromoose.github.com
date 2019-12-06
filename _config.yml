@@ -1,34 +1,28 @@
-title : So said the Moose to the Raven
-author :
-  name : Jon Anning
-  email : jon.anning@tue.mpg.de
-  github : astromoose
-  twitter : astromoose
+name: "@astromoose"
+description: "devops, whisky and nonsense as a service"
 
-# Number of featured posts on homepage
-homepage_featured: 1
+url: '' 
+baseurl: ''
 
-# Number of posts on homepage (in addition to featured posts)
-homepage_posts: 2
-
-# Number of words to display in post summaries
-featured_wordcount: 100
-
-markdown:    kramdown
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+highlighter: rouge
 
 kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
+  input: GFM
+  syntax_highlighter: rouge
 
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+plugins:
+  - jekyll-paginate
+paginate: 10
+paginate_path: /page-:num
+
+#disqus-id: your-disqus-id
+
+source: .
+destination: ./_site
+
+sass:
+    style: :compressed
+    sass_dir: assets/css/
+
